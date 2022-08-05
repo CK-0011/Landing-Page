@@ -1,0 +1,83 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+}
+
+button {
+    background-color: #3882F6;
+    width: 80px;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.head-text {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.head-pic {
+    font-display: flex;
+    flex: 1;
+
+    align-items: stretch height: 150px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+h5 {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.information {
+    background-color: white;
+    display: flex;
+
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 200px;
+}
+
+.invite {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li,
+a {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute;
+    top: 8px;
+    right: 16px;*/
+    list-style-type: none;
+    text-decoration: none;
+}
