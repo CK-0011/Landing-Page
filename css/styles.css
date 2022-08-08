@@ -1,14 +1,27 @@
-body {
+@media only screen and (max-width: 600px) {
+    body {
+        /* background-color: #3882F6; */
+        display: flex;
+        flex-direction: column;
 
-    display: flex;
-    flex-direction: column;
+    }
 }
-
 
 
 .header {
     background-color: #1F2937;
+
+
+}
+
+.logo {
+    border-radius: 200px;
+    margin: 8px;
+}
+
+.header .container {
     display: flex;
+    justify-content: space-between;
 }
 
 button {
@@ -19,20 +32,39 @@ button {
     border-radius: 12px;
 }
 
-.head-text {
+.head-text .container {
 
     display: flex;
+    justify-content: space-between;
+
+}
+
+.text .container {
+    display: flex;
     flex-direction: column;
+    max-width: 200px;
+}
+
+.text {
+
+    /* max-width: 200px; */
+
 }
 
 .head-pic {
-    font-display: flex;
-    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    border-radius: 12px;
 
-    align-items: stretch height: 150px;
-    width: 350px;
+
+
+    /* flex: 1; */
+
+    /* align-items: stretch height: 150px; */
+    /* width: 350px;
     margin: 0;
-    padding: 0;
+    padding: 0; */
 }
 
 h3 {
@@ -41,22 +73,49 @@ h3 {
     color: #F9FAF8;
 }
 
-h5 {
+p {
     font-size: 18px;
     color: #E5E7EB;
 
 }
 
-.information {
+.information .container {
     background-color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 28px;
+
+
+
 
 
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.information .information-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .quote {
     background-color: #E5E7EB;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+
 }
 
 .invite {
@@ -68,7 +127,7 @@ h5 {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
 li,
@@ -80,4 +139,12 @@ a {
     right: 16px;*/
     list-style-type: none;
     text-decoration: none;
+    padding: 8px;
+
+}
+
+.links {
+    display: flex;
+
+
 }
