@@ -17,11 +17,15 @@
 .logo {
     border-radius: 200px;
     margin: 8px;
+
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 
 button {
@@ -36,6 +40,9 @@ button {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 28px;
 
 }
 
@@ -43,12 +50,20 @@ button {
     display: flex;
     flex-direction: column;
     max-width: 200px;
+
 }
 
 .text {
 
     /* max-width: 200px; */
+    display: flex;
+    justify-content: center;
 
+}
+
+.pic {
+
+    margin: 18px;
 }
 
 .head-pic {
@@ -56,6 +71,8 @@ button {
     flex-direction: row;
     width: 800px;
     border-radius: 12px;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 
 
 
@@ -82,12 +99,10 @@ p {
 .information .container {
     background-color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* align-content: space-between; */
     margin: 28px;
-
-
 
 
 
@@ -97,6 +112,8 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
 
 }
 
@@ -112,6 +129,7 @@ p {
     height: 200px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
     align-items: center;
 
@@ -120,6 +138,12 @@ p {
 
 .invite {
     background-color: white;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer {
@@ -140,11 +164,13 @@ a {
     list-style-type: none;
     text-decoration: none;
     padding: 8px;
+    color: #E5E7EB;
 
 }
 
 .links {
     display: flex;
+
 
 
 }
